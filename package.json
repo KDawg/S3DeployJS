@@ -1,0 +1,13 @@
+{
+  "name": "S3Deploy",
+  "description": "Deploying webapp files to AWS S3 with NodeJS",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "2.x"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  }
+}
