@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Friday January 25th, 2014",
+    "lesson": "Deploying webapp files to AWS S3 with NodeJS",
+    "sounds": [
+      {
+        "word": "complete",
+        "audio": "resources/audio/general/complete.m4a"
+      },
+      {
+        "word": "correct",
+        "audio": "resources/audio/general/correct.m4a"
+      },
+      {
+        "word": "wrong",
+        "audio": "resources/audio/general/wrong.m4a"
+      }
+    ]
+  }
+]

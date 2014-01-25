@@ -1,0 +1,125 @@
+
+body {
+  background-color: #eee;
+}
+
+
+h2 {
+  font-size: 1.75em;
+  margin-bottom: 0.1em;
+  margin-top: 0.2em;
+  text-align: center;
+}
+
+
+h4 {
+  font-size: 1.25em;
+  margin-bottom: 0.1em;
+  margin-top: 0.3em;
+  text-align: center;
+}
+
+
+p {
+  font-size: 1.0em;
+  margin-bottom: 0.3em;
+  margin-top: 0.2em;
+  text-align: center;
+}
+
+
+ul {
+  list-style-type: none;
+  margin-top: 1.25em;
+  padding: 0;
+  text-align: center;
+}
+
+
+li {
+
+}
+
+
+ul li div {
+  display: inline-block;
+  text-align: center;
+  width: 20px;
+}
+
+
+a {
+  color: #008acf;
+  text-decoration: none;
+}
+
+
+a:hover, a:focus {
+  color: #00689c;
+  text-decoration: underline;
+}
+
+
+button {
+  border-radius: 5px;
+  box-shadow: 0 1px #b6e6ff inset;
+  background: #03abff;
+  background-image: linear-gradient(bottom, #03abff, #008acf);
+  border: 1px solid #008acf;
+  color: white;
+  cursor: pointer;
+  font-size: 1.10em;
+  font-weight: bold;
+  padding: 7px 10px 7px 10px;
+  text-align: center;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.35);
+}
+
+
+button:hover {
+  background: #36bcff;
+  background-image: linear-gradient(bottom, #36bcff, #03abff);
+}
+
+
+button:active {
+  background: #008acf;
+  background-image: linear-gradient(bottom, #008acf, #00689c);
+}
+
+
+audio {
+  display: none;
+  height: 0;
+  width: 0;
+}
+
+
+input {
+  font-size: 1.25em;
+}
+
+
+footer {
+  line-height: 0.75em;
+  font-size: 0.75em;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+
+
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+
+.hidden {
+  display: none;
+}
+
+
+.status-none {
+  color: #333333;
+  font-size: 1.75em;
+}
