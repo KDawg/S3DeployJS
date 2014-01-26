@@ -13,7 +13,7 @@ For lots more details and analysis read the accompanying [technical article](htt
 ##Setup
 * "git clone" the repo of course
 * "npm install" to bring down dependency packages
-* edit the AwsConfig.json file replacing these placeholder values with your proper AWS credentials:
+* edit the AwsConfig.json file replacing these placeholder values with your proper [AWS credentials](http://blogs.aws.amazon.com/security/post/Tx1R9KDN9ISZ0HF/Where-s-my-secret-access-key):
 
 ```
 {
