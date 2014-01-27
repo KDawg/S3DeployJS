@@ -1,9 +1,9 @@
 #S3DeployJS
 ##NodeJS Tool Deploying Files to AWS S3
 
-Example showing a NodeJS command-line tool pushing files up to an S3 bucket. 
+This project is all about showing a NodeJS command-line tool pushing files up to an S3 bucket.
 
-Why is there what looks to be a website here? It's a simple one I made serving as sample files showing at least what this file upload tool can do deploying a typical website to Amazon S3. These are the types of static resources best served from their service.
+Why does it look like there's a website here? It's a simple one I made serving as sample files showing at least what this file upload tool can do deploying a typical website to Amazon S3. These are the types of static resources best served from their service.
 
 Automating deployments is always a good thing. Reducing friction makes a process more fun, people are more willing to do it, and shiping working code to users is a blast!
 
@@ -39,8 +39,13 @@ node S3Deploy.js [param]
 * code
 * createBucket
 * css
+* images
 * index
 * list
+
+##Learn
+Have a good look at S3Deploy.js because it's where all the good stuff goes on. Reading that code gives lots of
+concrete examples all of you can well use.
 
 ##Further Info
 * Read the accompanying [technical article](http://blog.katworksgames.com/2014/01/25/nodejs_aws_deploy)
