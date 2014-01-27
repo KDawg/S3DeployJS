@@ -27,6 +27,7 @@ function runWithParams() {
   else if (process.argv[2] === 'code') uploadCode();
   else if (process.argv[2] === 'createBucket') createBucket(BUCKET_NAME);
   else if (process.argv[2] === 'css') uploadCss();
+  else if (process.argv[2] === 'images') uploadImages();
   else if (process.argv[2] === 'audio' && process.argv[3]) uploadAudio(process.argv[3]);
   else console.log('...that option isn\'t recognized');
 }
@@ -65,6 +66,16 @@ function uploadCode() {
 
 function uploadCss() {
   var CODE_PATH = 'resources/css/';
+  var fileList = getFileList('./' + CODE_PATH);
+
+  fileList.forEach(function(entry) {
+    uploadFile(CODE_PATH + entry, './' + CODE_PATH + entry);
+  });
+}
+
+
+function uploadImages() {
+  var CODE_PATH = 'resources/images/';
   var fileList = getFileList('./' + CODE_PATH);
 
   fileList.forEach(function(entry) {
@@ -134,12 +145,6 @@ function showUsage() {
   console.log('  createBucket');
   console.log('  css');
   console.log('  index');
+  console.log('  images');
   console.log('  list');
 }
-
-
-// SEE: http://aws.amazon.com/sdkfornodejs/
-// SEE: http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/frames.html#!AWS/S3.html
-
-// SEE: http://docs.aws.amazon.com/AmazonS3/latest/API/RESTObjectPUT.html
-// SEE: http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#putObject-property
