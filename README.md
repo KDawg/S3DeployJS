@@ -8,7 +8,7 @@ Why does it look like there's a website here? It's a simple one I made serving a
 Automating deployments is always a good thing. Reducing friction makes a process more fun, people are more willing to do it, and shiping working code to users is a blast!
 
 ##Accompanying Article
-For lots more details and analysis read the accompanying [technical article](http://blog.katworksgames.com/2014/01/25/nodejs_aws_deploy)
+For lots more details and analysis read the accompanying [technical article](http://blog.katworksgames.com/2014/01/26/nodejs-deploying-files-to-aws-s3/)
 
 ##Setup
 * "git clone" the repo of course
@@ -48,7 +48,7 @@ Have a good look at S3Deploy.js because it's where all the good stuff goes on. R
 concrete examples all of you can well use.
 
 ##Further Info
-* Read the accompanying [technical article](http://blog.katworksgames.com/2014/01/25/nodejs_aws_deploy)
+* Read the accompanying [technical article](http://blog.katworksgames.com/2014/01/26/nodejs-deploying-files-to-aws-s3/)
 * Reach out to me on Twitter [@KenTabor](https://twitter.com/KenTabor)
 * [AWS SDK](http://aws.amazon.com/sdkfornodejs/) for JavaScript NodeJS
 * Source code repo on GitHub [S3DeployJS](https://github.com/KDawg/S3DeployJS)
