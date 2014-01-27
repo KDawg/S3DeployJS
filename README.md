@@ -52,3 +52,5 @@ concrete examples all of you can well use.
 * Reach out to me on Twitter [@KenTabor](https://twitter.com/KenTabor)
 * [AWS SDK](http://aws.amazon.com/sdkfornodejs/) for JavaScript NodeJS
 * Source code repo on GitHub [S3DeployJS](https://github.com/KDawg/S3DeployJS)
+
+Please share this repo and the accompanying artticle with those who will benefit.
